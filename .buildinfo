@@ -1,0 +1,11 @@
+# Build configuration for Cloudflare Pages
+# This is a Next.js Static Export project
+
+NODE_VERSION=18
+NPM_VERSION=9
+BUILD_COMMAND="npm run build"
+OUTPUT_DIR="out"
+FRAMEWORK="Next.js (Static HTML Export)"
+
+# IMPORTANT: Output directory MUST be "out" not ".next"
+# Static export is enabled in next.config.js with output: 'export'

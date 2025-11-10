@@ -1,0 +1,81 @@
+{
+  "name": "wechat-management-system",
+  "version": "2.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "type-check": "tsc --noEmit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "preview": "next build && next start",
+    "clean": "rm -rf .next out"
+  },
+  "dependencies": {
+    "@radix-ui/react-label": "^2.1.8",
+    "@radix-ui/react-select": "^2.2.6",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@radix-ui/react-tabs": "^1.0.4",
+    "@tanstack/react-query": "^5.90.7",
+    "@tanstack/react-query-devtools": "^5.90.2",
+    "@tiptap/extension-bold": "^3.10.4",
+    "@tiptap/extension-bullet-list": "^3.10.4",
+    "@tiptap/extension-heading": "^3.10.4",
+    "@tiptap/extension-image": "^3.10.4",
+    "@tiptap/extension-italic": "^3.10.4",
+    "@tiptap/extension-link": "^3.10.4",
+    "@tiptap/extension-ordered-list": "^3.10.4",
+    "@tiptap/extension-underline": "^3.10.4",
+    "@tiptap/react": "^3.10.4",
+    "@tiptap/starter-kit": "^3.10.4",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.23.24",
+    "lucide-react": "^0.400.0",
+    "next": "14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^3.4.1",
+    "tailwind-merge": "^2.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8.4.39",
+    "prettier": "^3.6.2",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.5.3"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "description": "微信公众号管理系统 - 企业级内容管理与数据分析平台，提供内容创作、数据分析和自动化管理功能",
+  "keywords": [
+    "wechat",
+    "content-management",
+    "data-analytics",
+    "nextjs",
+    "react",
+    "typescript",
+    "tailwindcss",
+    "static-site"
+  ],
+  "author": "YYW0228",
+  "homepage": "https://github.com/YYW0228/wechat-mcp-system#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YYW0228/wechat-mcp-system.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YYW0228/wechat-mcp-system/issues"
+  },
+  "license": "MIT"
+}
